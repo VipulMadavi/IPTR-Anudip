@@ -1,16 +1,14 @@
 public class oops {
     public static void main(String[] args) {
         Student s1 = new Student();
-        s1.name = "Vipul";
-        s1.age = 20;
         s1.printInfo();
         Student s2 = new Student("Manoj", 21);
+        System.out.println(s2.name);
         s2.printInfo();
 
         Student s3 = new Student(s2);
         s3.name = "Rahul";
-        s3.printInfo();
-
+        s3.printInfo();ṇ
     }
 }
 
