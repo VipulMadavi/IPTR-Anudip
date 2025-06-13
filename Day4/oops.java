@@ -8,7 +8,7 @@ public class oops {
 
         Student s3 = new Student(s2);
         s3.name = "Rahul";
-        s3.printInfo();ṇ
+        s3.printInfo();
     }
 }
 
