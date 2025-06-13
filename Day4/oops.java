@@ -13,8 +13,8 @@ public class oops {
 }
 
 class Student {
-    String name;
-    int age;
+    String name = "soham";
+    int age = 20;
 
     // Default Constructor
     Student() {
@@ -27,6 +27,7 @@ class Student {
         this.age = age;
     }
 
+    // Copy Constructor
     Student(Student original) {
         this.name = original.name;
         this.age = original.age;
