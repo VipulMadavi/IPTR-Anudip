@@ -30,4 +30,5 @@ class EquilateralTriangle extends Triangle {
     void calArea(int s) {
         System.out.println((1.73 * s * s) / 4);
     }
+
 }
