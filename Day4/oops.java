@@ -4,7 +4,6 @@ public class oops {
         s1.printInfo();
         Student s2 = new Student("Manoj", 21);
         System.out.println(s2.name);
-        s2.printInfo();
 
         Student s3 = new Student(s2);
         s3.name = "Rahul";
