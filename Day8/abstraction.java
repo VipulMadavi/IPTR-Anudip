@@ -4,7 +4,6 @@ public class abstraction {
         d.sound();
         d.eat();
     }
-
 }
 
 abstract class Animal {
